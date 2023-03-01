@@ -1,0 +1,7 @@
+kumpul = input("Masukkan sekumpulan bilangan (pisahkan dengan koma) : ")
+angka = kumpul.split(",")
+angkaint = list(map(int, angka))
+besar = max(angka)
+kecil = min(angka)
+print(besar)
+print(kecil)
